@@ -1,16 +1,25 @@
 {
   "token": "",
-  "prefix": "!",
-  "ksoftapi": "",
+  "prefix": ",",
+  "ksoftapi": "AIzaSyAAg3GHxipuyDz7KsCAv434yoFT56TR9LQ",
   
   
   "clientsettings": {
     "nodes": [
-      {
-         "host": "localhost",
-         "port": 2333,
-         "password": "youshallnotpass"
-       }
+        {
+            "host": "lava.link",
+            "port": 80,
+            "password": "youshallnotpass",
+            "retryDelay": 4000,
+            "secure": false
+        },
+        {
+            "host": "lava1.horizxon.studio",        
+            "port": 80,
+            "password": "horizxon.studio",
+            "retryDelay": 4000,
+            "secure": false
+        }
      ]
   },
 
