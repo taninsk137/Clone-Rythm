@@ -18,7 +18,8 @@ module.exports = {
         let newtime = new Date().getMilliseconds() - oldate;
         msg.edit(new MessageEmbed()
           .setColor("#00ff00")
-          .setDescription(`:hourglass: ${client.ws.ping}ms\n\n:stopwatch: ${client.ws.ping + newtime}ms\n\n:heartbeat: ${newtime}ms`)
+          // .setDescription(`:hourglass: ${client.ws.ping}ms\n\n:stopwatch: ${client.ws.ping + newtime}ms\n\n:heartbeat: ${newtime}ms`)
+          .setDescription(`Ping :hourglass: ${client.ws.ping}ms\n\nAPI Latency :heartbeat: ${newtime}ms`)
         );
       })
     } catch (e) {
@@ -32,12 +33,3 @@ module.exports = {
     }
   }
 }
-/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
