@@ -5,7 +5,7 @@ const { paginationEmbed } = require("../../handlers/functions");
 module.exports = {
     name: "commands",
     category: "Information",
-    aliases: ["cmd", "cmds"],
+    aliases: ["cmd", "cmds", "help", "h"],
     cooldown: 4,
     usage: "commands",
     description: "Shows all available Commands",
