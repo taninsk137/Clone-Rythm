@@ -13,25 +13,18 @@ module.exports = client => {
   }catch{ /* */ }
 
   try{
-    client.user.setActivity(client.user.username, { type: "PLAYING" });
+    // client.user.setActivity(client.user.username, { type: "PLAYING" });
+    client.user.setActivity(",help", { type: "PLAYING" });
   }catch (e) {
       console.log(String(e.stack).red);
   }
   //Change status each 10 minutes
   setInterval(()=>{
     try{
-      client.user.setActivity(client.user.username, { type: "PLAYING" });
+      // client.user.setActivity(client.user.username, { type: "PLAYING" });
+      client.user.setActivity(",help", { type: "PLAYING" });
     }catch (e) {
         console.log(String(e.stack).red);
     }
   }, 10*60*1000)
 }
-/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
