@@ -2,9 +2,9 @@ const { MessageEmbed, Message } = require("discord.js");
 const config = require("../../botconfig/config.json");
 const ee = require("../../botconfig/embed.json");
 module.exports = {
-    name: "help",
+    name: "help2",
     category: "Information",
-    aliases: ["h", "halp"],
+    aliases: [],
     cooldown: 4,
     usage: "help",
     description: "Shows you Help for Milrato x Rythm",
