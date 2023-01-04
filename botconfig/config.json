@@ -19,6 +19,41 @@
             "password": "horizxon.studio",
             "retryDelay": 4000,
             "secure": false
+        },
+                {
+            "host": "lavalink-replit.taninsk137.repl.co",
+            "port": 443,
+            "password": "nonmaipor",
+            "secure": true,
+            "retryDelay": 4000
+        },
+        {
+            "host": "lava3.horizxon.studio",        
+            "port": 80,
+            "password": "horizxon.studio",
+            "secure": false,
+            "retryDelay": 4000
+        },
+        {
+            "host": "lava4.horizxon.studio",        
+            "port": 80,
+            "password": "horizxon.studio",
+            "secure": false,
+            "retryDelay": 4000
+        },
+        {
+            "host": "nonssl.freelavalink.ga",
+            "port": 80,
+            "password": "www.freelavalink.ga",
+            "secure": false,
+            "retryDelay": 4000
+        },
+        {
+            "host": "node1.kartadharta.xyz",
+            "port": 443,
+            "password": "kdlavalink",
+            "secure": true,
+            "retryDelay": 4000
         }
      ]
   },
