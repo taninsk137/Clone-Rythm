@@ -19,21 +19,7 @@
             "password": "kdlavalink",
             "retryDelay": 4000,
             "secure": true
-        },
-        {
-            "host": "lavalink.api.timelessnesses.me",
-            "port": 80,
-            "password": "youshallnotpass",
-            "secure": false,
-            "retryDelay": 4000
-		},
-		{
-            "host": "lavalink.joshsevero.dev",
-            "port": 80,
-            "password": "oxygen",
-            "secure": false,
-            "retryDelay": 4000		
-		}
+        }
      ]
   },
 
