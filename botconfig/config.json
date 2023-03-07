@@ -6,20 +6,20 @@
   
   "clientsettings": {
     "nodes": [
-        {
-            "host": "lava.link",
-            "port": 80,
-            "password": "youshallnotpass",
-            "retryDelay": 4000,
-            "secure": false
-        },
-        {
-            "host": "node1.kartadharta.xyz",
-            "port": 443,
-            "password": "kdlavalink",
-            "retryDelay": 4000,
-            "secure": true
-        }
+		{
+			"host": "node1.kartadharta.xyz",
+			"port": 443,
+			"password": "kdlavalink",
+			"secure": true,
+			"retryDelay": 4000
+		},
+		{
+			"host": "krn.2d.gay",
+			"port": 80,
+			"password": "AWP)JQ$Gv9}dm.u",
+			"secure": false,
+			"retryDelay": 4000
+		}
      ]
   },
 
