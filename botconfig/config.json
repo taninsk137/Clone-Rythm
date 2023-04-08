@@ -1,31 +1,22 @@
 {
-  "token": "??",
+  "token": "",
   "prefix": "+",
-  "ksoftapi": "AIzaSyAAg3GHxipuyDz7KsCAv434yoFT56TR9LQ",
+  "ksoftapi": "",
   
   
   "clientsettings": {
     "nodes": [
-		{
-			"host": "node1.kartadharta.xyz",
-			"port": 443,
-			"password": "kdlavalink",
-			"secure": true,
-			"retryDelay": 4000
-		},
-		{
-			"host": "krn.2d.gay",
-			"port": 80,
-			"password": "AWP)JQ$Gv9}dm.u",
-			"secure": false,
-			"retryDelay": 4000
-		}
-     ]
+		  {
+			  "host": "lavalink.botsuniversity.ml",
+			  "port": 443,
+			  "password": "mathiscool",
+			  "secure": true,
+			  "retryDelay": 4000
+		  }
+    ]
   },
-
   "spotify": {
-    "clientSecret": "??",
-    "clientID": "??"
+    "clientSecret": "",
+    "clientID": ""
   }
-
 }
