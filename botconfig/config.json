@@ -7,10 +7,10 @@
   "clientsettings": {
     "nodes": [
 		  {
-			  "host": "lavalink.botsuniversity.ml",
-			  "port": 443,
-			  "password": "mathiscool",
-			  "secure": true,
+			  "host": "",
+			  "port": 80,
+			  "password": "",
+			  "secure": false,
 			  "retryDelay": 4000
 		  }
     ]
