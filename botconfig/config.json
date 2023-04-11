@@ -3,16 +3,16 @@
   "prefix": "+",
   "ksoftapi": "",
   
-  
   "clientsettings": {
     "nodes": [
-		  {
-			  "host": "",
-			  "port": 80,
-			  "password": "",
-			  "secure": false,
-			  "retryDelay": 4000
-		  }
+	{
+		"host": "lavalink.api.timelessnesses.me",
+		"port": 80,
+		"password": "youshallnotpass",
+		"secure": false,
+		"retryDelay": 4000,
+        	"_comment": "https://lavalink-list.darrennathanael.com"
+	}
     ]
   },
   "spotify": {
