@@ -14,7 +14,7 @@ module.exports = client => {
 
   try{
     // client.user.setActivity(client.user.username, { type: "PLAYING" });
-    client.user.setActivity(",p", { type: "PLAYING" });
+    client.user.setActivity("+p", { type: "PLAYING" });
   }catch (e) {
       console.log(String(e.stack).red);
   }
@@ -22,7 +22,7 @@ module.exports = client => {
   setInterval(()=>{
     try{
       // client.user.setActivity(client.user.username, { type: "PLAYING" });
-      client.user.setActivity(",p", { type: "PLAYING" });
+      client.user.setActivity("+p", { type: "PLAYING" });
     }catch (e) {
         console.log(String(e.stack).red);
     }
