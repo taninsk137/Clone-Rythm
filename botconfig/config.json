@@ -6,9 +6,9 @@
   "clientsettings": {
     "nodes": [
 	{
-		"host": "lavalink.api.timelessnesses.me",
+		"host": "lavalink.hyembot.site",
 		"port": 80,
-		"password": "youshallnotpass",
+		"password": "kendoxhyem",
 		"secure": false,
 		"retryDelay": 4000,
         	"_comment": "https://lavalink-list.darrennathanael.com"
