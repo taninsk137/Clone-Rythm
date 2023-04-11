@@ -38,41 +38,32 @@ module.exports = {
       //IF YOUTUBE SEND INFO WITH YOUTUBE
       if(message.content.includes("youtu")){
         //send searching
-        message.channel.send(`<:youtube:826100274095194132> **Searching** :mag_right: \`${args.join(" ")}\``)
+        message.channel.send(`**Searching...** :mag_right: \`${args.join(" ")}\``) //youtube
         //play the song from our playermanager
         playermanager(client, message, args, `play:youtube`);
       //IF SPOTIFY SEARCH SEND INFO WITH SPOTIFY
       } else if(message.content.includes("spotify")){
         //send searching
-        message.channel.send(`<:spotify:818555971873013761>**Searching** :mag_right: \`${args.join(" ")}\``)
+        message.channel.send(`**Searching...** :mag_right: \`${args.join(" ")}\``) //spotify
         //play the song from our playermanager
         playermanager(client, message, args, `play:youtube`);
       //IF SOUNDCLOUD SEARCH SEND INFO WITH SOUNDCLOUD
       } else if(message.content.includes("soundcloud")){
         //send searching
-        message.channel.send(`<:soundcloud:818555972079321128> **Searching** :mag_right: \`${args.join(" ")}\``)
+        message.channel.send(`**Searching...** :mag_right: \`${args.join(" ")}\``) //soundcloud
         //play the song from our playermanager
         playermanager(client, message, args, `play:soundcloud`);
       //ELSE SEND RYTHM INFO
     } else if(message.content.includes("http")){
       //send searching
-      message.channel.send(`<:rythm:826519647347539990> **Searching** :mag_right: \`${args.join(" ")}\``)
+      message.channel.send(`**Searching...** :mag_right: \`${args.join(" ")}\``)
       //play the song from our playermanager
       playermanager(client, message, args, `play:youtube`);
     } else {
       //send searching
-      message.channel.send(`<:youtube:826100274095194132> **Searching** :mag_right: \`${args.join(" ")}\``)
+      message.channel.send(`**Searching...** :mag_right: \`${args.join(" ")}\``)
       //play the song from our playermanager
       playermanager(client, message, args, `play:youtube`);
     }
   }
 };
-/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/discord-js-lavalink-Music-Bot-erela-js
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
