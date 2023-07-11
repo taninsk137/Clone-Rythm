@@ -1,17 +1,17 @@
 {
   "token": "",
-  "prefix": "+",
-  "ksoftapi": "",
+  "prefix": "!",
+  "ksoftapi": "AIzaSyAAg3GHxipuyDz7KsCAv434yoFT56TR9LQ",
   
   "clientsettings": {
     "nodes": [
 	{
-		"host": "lavalink.hyembot.site",
-		"port": 80,
-		"password": "kendoxhyem",
+		"host": "lavalink.clxud.dev",
+		"port": 2333,
+		"password": "youshallnotpass",
 		"secure": false,
 		"retryDelay": 4000,
-        	"_comment": "https://lavalink-list.darrennathanael.com"
+		"_comment" : "https://lavalink-list.darrennathanael.com"
 	}
     ]
   },
